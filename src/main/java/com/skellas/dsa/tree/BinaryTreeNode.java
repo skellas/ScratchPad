@@ -1,6 +1,6 @@
 package com.skellas.dsa.tree;
 
-public class BinaryTreeNode<T> {
+public class BinaryTreeNode<T extends Comparable> {
     private T data;
     private BinaryTreeNode left;
     private BinaryTreeNode right;
