@@ -16,11 +16,11 @@ public class BTHelperUtil {
      * @param node
      */
     protected static void testNodeIsNotNull(BinaryTreeNode node) {
-        if (testForNull(node))
+        if (isNull(node))
             throw new RuntimeException("Node Cannot Be Null");
     }
 
-    protected static boolean testForNull(BinaryTreeNode node) {
+    protected static boolean isNull(BinaryTreeNode node) {
         return (null == node);
     }
 }

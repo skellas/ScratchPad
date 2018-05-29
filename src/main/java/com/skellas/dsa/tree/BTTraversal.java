@@ -103,7 +103,7 @@ public class BTTraversal {
     }
 
     public static BinaryTreeNode insert(final BinaryTreeNode head, final BinaryTreeNode nodeToInsert) {
-        if (BTHelperUtil.testForNull(head))
+        if (BTHelperUtil.isNull(head))
             return nodeToInsert;
         if (nodeToInsert.getData().compareTo(head.getData()) <= 0) {
             head.setLeft(insert(head.getLeft(), nodeToInsert));
@@ -121,7 +121,7 @@ public class BTTraversal {
      * @return the head node
      */
     public static BinaryTreeNode<Integer> insertInteger(final BinaryTreeNode<Integer> head, final BinaryTreeNode<Integer> nodeToInsert) {
-        if (BTHelperUtil.testForNull(head))
+        if (BTHelperUtil.isNull(head))
             return nodeToInsert;
         if (nodeToInsert.getData() <= head.getData()) {
             head.setLeft(insertInteger(head.getLeft(), nodeToInsert));
@@ -132,7 +132,7 @@ public class BTTraversal {
     }
 
     public static BinaryTreeNode lookup(final BinaryTreeNode head, final Object valueToFind) {
-        if (BTHelperUtil.testForNull(head))
+        if (BTHelperUtil.isNull(head))
             return null;
         if (head.getData().compareTo(valueToFind) == 0)
             return head;
@@ -149,7 +149,7 @@ public class BTTraversal {
      * @return the Node that contains the value
      */
     public static BinaryTreeNode<Integer> lookupInteger(final BinaryTreeNode<Integer> head, final Integer valueToFind) {
-        if (BTHelperUtil.testForNull(head))
+        if (BTHelperUtil.isNull(head))
             return null;
         if (valueToFind == head.getData())
             return head;
@@ -158,6 +158,58 @@ public class BTTraversal {
         } else {
             return lookupInteger(head.getRight(), valueToFind);
         }
+    }
+
+    /**
+     * Find the smallest obtainable value in the tree
+     * by traversing down the left hand path.
+     * @param head
+     * @return
+     */
+    public static Object findMinimumValue(final BinaryTreeNode head) {
+        if (BTHelperUtil.isNull(head.getLeft()))
+            return head.getData();
+        return findMinimumValue(head.getLeft());
+    }
+
+
+    /**
+     * Find the largest obtainable value in the tree
+     * by traversing down the right hand path.
+     * @param head
+     * @return
+     */
+    public static Object findMaximumValue(final BinaryTreeNode head) {
+        if (BTHelperUtil.isNull(head.getRight()))
+            return head.getData();
+        return findMaximumValue(head.getRight());
+    }
+
+    public static boolean isBinarySearchTree(BinaryTreeNode head, Object min, Object max) {
+        if (BTHelperUtil.isNull(head))
+            return true;
+        if (head.getData().compareTo(min) < 0 || head.getData().compareTo(max) > 0) {
+            return false;
+        }
+        return isBinarySearchTree(head.getLeft(), min, head.getData())
+                && isBinarySearchTree(head.getRight(), head.getData(), max);
+    }
+    /**
+     * Find the furthest branch that can be traversed in this tree
+     * @param head
+     * @return
+     */
+    public static Integer findMaximumDepth(final BinaryTreeNode head) {
+        return findNextDepth(head, 0);
+    }
+    private static Integer findNextDepth(final BinaryTreeNode head, final Integer currentDepth) {
+        Integer deepestTraversalLeft = currentDepth;
+        Integer deepestTraversalRight = currentDepth;
+        if (!BTHelperUtil.isNull(head.getLeft()))
+            deepestTraversalLeft = findNextDepth(head.getLeft(), currentDepth + 1);
+        if (!BTHelperUtil.isNull(head.getRight()))
+            deepestTraversalRight = findNextDepth(head.getRight(), currentDepth +1);
+        return deepestTraversalLeft > deepestTraversalRight ? deepestTraversalLeft : deepestTraversalRight;
     }
 
 }

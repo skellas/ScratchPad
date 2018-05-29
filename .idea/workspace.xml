@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913d9b29-2f0f-4320-9d3c-87bb50fe650c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skellas/dsa/tree/BTTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skellas/dsa/tree/BTTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/skellas/dsa/tree/BTTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/skellas/dsa/tree/BTTraversalTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +20,8 @@
       <file leaf-file-name="BTHelperUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="272">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="e#597#598#0" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
@@ -34,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTTraversalTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BTTraversalTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="80" column="93" selection-start-line="80" selection-start-column="93" selection-end-line="80" selection-end-column="93" />
+            <state relative-caret-position="496">
+              <caret line="207" column="92" selection-start-line="207" selection-start-column="92" selection-end-line="207" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1733#1734#0" expanded="true" />
@@ -48,40 +44,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTTraversal.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BTTraversal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="374">
+              <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6427#6428#0" expanded="true" />
+                <element signature="e#6472#6473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,12 +93,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BinaryTreeNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTInsertion.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTInsertionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java" />
       </list>
     </option>
   </component>
@@ -264,32 +235,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BTTraversalTest">
+  <component name="RunManager" selected="JUnit.BTTraversalTest.test_invalid_trees">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BTInsertionTest.test_insertion_of_13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScratchPad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skellas.dsa.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.skellas.dsa.tree" />
-      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.tree.BTInsertionTest" />
-      <option name="METHOD_NAME" value="test_insertion_of_13" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="BTTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
@@ -314,7 +262,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BTTraversalTest.test_in_order_depth_first_traversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BTTraversalTest.find_maximum_depth_of_string_tree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
       <extension name="coverage">
         <pattern>
@@ -326,7 +274,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.skellas.dsa.tree" />
       <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.tree.BTTraversalTest" />
-      <option name="METHOD_NAME" value="test_in_order_depth_first_traversal" />
+      <option name="METHOD_NAME" value="find_maximum_depth_of_string_tree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,7 +285,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BTTraversalTest.test_insertion_of_I" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BTTraversalTest.find_minimum_value_in_integer_tree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
       <extension name="coverage">
         <pattern>
@@ -349,7 +297,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.skellas.dsa.tree" />
       <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.tree.BTTraversalTest" />
-      <option name="METHOD_NAME" value="test_insertion_of_I" />
+      <option name="METHOD_NAME" value="find_minimum_value_in_integer_tree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -360,7 +308,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BTTraversalTest.test_lookup_of_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BTTraversalTest.find_minimum_value_in_string_tree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
       <extension name="coverage">
         <pattern>
@@ -372,7 +320,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.skellas.dsa.tree" />
       <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.tree.BTTraversalTest" />
-      <option name="METHOD_NAME" value="test_lookup_of_9" />
+      <option name="METHOD_NAME" value="find_minimum_value_in_string_tree" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BTTraversalTest.test_invalid_trees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScratchPad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.dsa.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.dsa.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.tree.BTTraversalTest" />
+      <option name="METHOD_NAME" value="test_invalid_trees" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -423,18 +394,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BTTraversalTest" />
-      <item itemvalue="JUnit.BTTraversalTest.test_in_order_depth_first_traversal" />
-      <item itemvalue="JUnit.BTInsertionTest.test_insertion_of_13" />
-      <item itemvalue="JUnit.BTTraversalTest.test_lookup_of_9" />
-      <item itemvalue="JUnit.BTTraversalTest.test_insertion_of_I" />
+      <item itemvalue="JUnit.BTTraversalTest.find_minimum_value_in_string_tree" />
+      <item itemvalue="JUnit.BTTraversalTest.find_minimum_value_in_integer_tree" />
+      <item itemvalue="JUnit.BTTraversalTest.find_maximum_depth_of_string_tree" />
+      <item itemvalue="JUnit.BTTraversalTest.test_invalid_trees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BTTraversalTest.test_invalid_trees" />
         <item itemvalue="JUnit.BTTraversalTest" />
-        <item itemvalue="JUnit.BTTraversalTest.test_insertion_of_I" />
-        <item itemvalue="JUnit.BTTraversalTest.test_lookup_of_9" />
-        <item itemvalue="JUnit.BTInsertionTest.test_insertion_of_13" />
-        <item itemvalue="JUnit.BTTraversalTest.test_in_order_depth_first_traversal" />
+        <item itemvalue="JUnit.BTTraversalTest.find_maximum_depth_of_string_tree" />
+        <item itemvalue="JUnit.BTTraversalTest.find_minimum_value_in_integer_tree" />
+        <item itemvalue="JUnit.BTTraversalTest.find_minimum_value_in_string_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -448,44 +419,44 @@
       <workItem from="1527087674651" duration="3128000" />
       <workItem from="1527163748520" duration="5260000" />
       <workItem from="1527184881743" duration="598000" />
-      <workItem from="1527600670871" duration="4128000" />
+      <workItem from="1527600670871" duration="7942000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BTInsertionTest_test_insertion_of_13 - 2018.05.29 at 09h 58m 50s.xml">
-      <configuration name="BTInsertionTest.test_insertion_of_13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BTInsertionTest_test_insertion_of_13 - 2018.05.29 at 09h 59m 06s.xml">
-      <configuration name="BTInsertionTest.test_insertion_of_13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BTTraversalTest_test_lookup_of_9 - 2018.05.29 at 10h 08m 29s.xml">
-      <configuration name="BTTraversalTest.test_lookup_of_9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BTTraversalTest_test_lookup_of_9 - 2018.05.29 at 10h 09m 27s.xml">
-      <configuration name="BTTraversalTest.test_lookup_of_9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BTTraversalTest_test_lookup_of_9 - 2018.05.29 at 10h 11m 57s.xml">
-      <configuration name="BTTraversalTest.test_lookup_of_9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BTTraversalTest - 2018.05.29 at 10h 12m 40s.xml">
+    <history-entry file="BTTraversalTest - 2018.05.29 at 11h 03m 01s.xml">
       <configuration name="BTTraversalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BTTraversalTest - 2018.05.29 at 10h 21m 36s.xml">
+    <history-entry file="BTTraversalTest - 2018.05.29 at 11h 03m 47s.xml">
       <configuration name="BTTraversalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BTTraversalTest - 2018.05.29 at 10h 22m 31s.xml">
+    <history-entry file="BTTraversalTest_find_maximum_depth_of_string_tree - 2018.05.29 at 11h 11m 08s.xml">
+      <configuration name="BTTraversalTest.find_maximum_depth_of_string_tree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BTTraversalTest_find_maximum_depth_of_string_tree - 2018.05.29 at 11h 13m 49s.xml">
+      <configuration name="BTTraversalTest.find_maximum_depth_of_string_tree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BTTraversalTest_find_maximum_depth_of_string_tree - 2018.05.29 at 11h 14m 42s.xml">
+      <configuration name="BTTraversalTest.find_maximum_depth_of_string_tree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BTTraversalTest_find_maximum_depth_of_string_tree - 2018.05.29 at 11h 16m 33s.xml">
+      <configuration name="BTTraversalTest.find_maximum_depth_of_string_tree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BTTraversalTest - 2018.05.29 at 11h 28m 24s.xml">
       <configuration name="BTTraversalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BTTraversalTest - 2018.05.29 at 10h 23m 48s.xml">
+    <history-entry file="BTTraversalTest - 2018.05.29 at 11h 33m 37s.xml">
       <configuration name="BTTraversalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BTTraversalTest - 2018.05.29 at 10h 24m 34s.xml">
-      <configuration name="BTTraversalTest" configurationId="JUnit" />
+    <history-entry file="BTTraversalTest_test_invalid_trees - 2018.05.29 at 11h 35m 13s.xml">
+      <configuration name="BTTraversalTest.test_invalid_trees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BTTraversalTest_test_invalid_trees - 2018.05.29 at 11h 36m 51s.xml">
+      <configuration name="BTTraversalTest.test_invalid_trees" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13114000" />
+    <option name="totallyTimeSpent" value="16928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="30" width="1696" height="1026" extended-state="6" />
@@ -498,14 +469,14 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22857143" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -547,13 +518,8 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="head.getData().compareTo(valueToFind)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -786,27 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -832,14 +777,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTHelperUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="80" column="93" selection-start-line="80" selection-start-column="93" selection-end-line="80" selection-end-column="93" />
+        <state relative-caret-position="496">
+          <caret line="207" column="92" selection-start-line="207" selection-start-column="92" selection-end-line="207" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1733#1734#0" expanded="true" />
             <element signature="e#1799#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6427#6428#0" expanded="true" />
+            <element signature="e#6472#6473#0" expanded="true" />
           </folding>
         </state>
       </provider>
