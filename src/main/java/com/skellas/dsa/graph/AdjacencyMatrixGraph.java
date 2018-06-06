@@ -6,8 +6,8 @@ import java.util.List;
 
 public class AdjacencyMatrixGraph implements Graph {
     private int[][] adjacencyMatrix;
-    private GraphType graphType = GraphType.DIRECTED;
-    private int numVertices = 0;
+    private GraphType graphType;
+    private int numVertices;
 
     public AdjacencyMatrixGraph(int numVertices, GraphType graphType) {
         this.numVertices = numVertices;
@@ -36,7 +36,7 @@ public class AdjacencyMatrixGraph implements Graph {
     @Override
     public List<Integer> getAdjacentVertices(int v) {
         if (v >= numVertices || v < 0)
-            throw new IllegalArgumentException("Verex number is not valid");
+            throw new IllegalArgumentException("Vertex number is not valid");
 
         List<Integer> adjacentVertices = new ArrayList<>();
         for (int i =0; i < numVertices; i++) {
@@ -46,5 +46,22 @@ public class AdjacencyMatrixGraph implements Graph {
         Collections.sort(adjacentVertices);
 
         return adjacentVertices;
+    }
+
+    @Override
+    public int getNumVertices() {
+        return this.numVertices;
+    }
+
+    @Override
+    public int getIndegree(int v) {
+        if (v >= numVertices || v < 0)
+            throw new IllegalArgumentException("Verex number is not valid");
+        int indegree = 0;
+        for (int i =0; i < numVertices; i++) {
+            if (adjacencyMatrix[i][v] != 0)
+                indegree++;
+        }
+        return indegree;
     }
 }

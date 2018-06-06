@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class GraphNode {
+public class GraphNode implements Node {
     private int vertexId;
-    private GraphNode next;
+    protected Node next;
 
     public GraphNode(final int vertexId) {
         this.vertexId = vertexId;
@@ -16,19 +16,28 @@ public class GraphNode {
         return vertexId;
     }
 
-    public GraphNode getNext() {
+    @Override
+    public Node getNext() {
         return next;
     }
 
-    public void addEdge(int vertexId) {
-        GraphNode transientNode = this;
+    @Override
+    public void setNext(Node node) {
+        this.next = node;
+    }
+
+    @Override
+    public void addEdge(Node node) {
+        Node transientNode = this;
         while (null != transientNode.getNext()) {
             transientNode = transientNode.getNext();
         }
-        transientNode.next = new GraphNode(vertexId);
+        transientNode.setNext(node);
+
     }
+
     public List<Integer> getAdjacentVertices() {
-        GraphNode transientNode = this;
+        Node transientNode = this;
         List<Integer> adjacentVertices = new ArrayList<>();
         while(null != transientNode.getNext()) {
             transientNode = transientNode.getNext();

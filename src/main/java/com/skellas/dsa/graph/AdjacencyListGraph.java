@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AdjacencyListGraph implements Graph {
-    private List<GraphNode> vertices;
-    private GraphType graphType = GraphType.DIRECTED;
-    private int numVertices = 0;
+    protected List<Node> vertices;
+    protected GraphType graphType;
+    protected int numVertices;
+
+    public AdjacencyListGraph() {
+    }
 
     public AdjacencyListGraph(int numVertices, GraphType graphType) {
         this.vertices = new ArrayList<>(numVertices);
@@ -23,9 +26,9 @@ public class AdjacencyListGraph implements Graph {
                 || v2 >= numVertices || v2 <0) {
             throw new IllegalArgumentException("Vertices not valid");
         }
-        vertices.get(v1).addEdge(v2);
+        vertices.get(v1).addEdge(new GraphNode(v2));
         if (graphType.equals(GraphType.UNDIRECTED))
-            vertices.get(v2).addEdge(v1);
+            vertices.get(v2).addEdge(new GraphNode(v1));
     }
 
     @Override
@@ -33,5 +36,23 @@ public class AdjacencyListGraph implements Graph {
         if (v >= numVertices || v < 0)
             throw new IllegalArgumentException("Verex number is not valid");
         return vertices.get(v).getAdjacentVertices();
+    }
+
+    @Override
+    public int getIndegree(int v) {
+        if (v >= numVertices || v < 0)
+            throw new IllegalArgumentException("Verex number is not valid");
+
+        int indegree = 0;
+        for (int i =0; i < numVertices; i++) {
+            if (getAdjacentVertices(i).contains(v))
+                indegree++;
+        }
+        return indegree;
+    }
+
+    @Override
+    public int getNumVertices() {
+        return this.numVertices;
     }
 }
