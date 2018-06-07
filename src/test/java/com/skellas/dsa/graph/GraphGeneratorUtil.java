@@ -16,11 +16,31 @@ public class GraphGeneratorUtil {
         graph.addEdge(1, 2, 1);
         graph.addEdge(2, 7, 1);
         graph.addEdge(2, 4, 10);
-        graph.addEdge(2, 3, 7); // change 7 to 2 to see shortest path swap
+        graph.addEdge(2, 3, 2); // change 7 to 2 to see shortest path swap
         graph.addEdge(1, 5, 1);
         graph.addEdge(5, 6, 1);
         graph.addEdge(6, 3, 1);
+        graph.addEdge(3, 4, -2);
+
+        return graph;
+    }
+
+    protected static WeightedGraph createdWeightedAdjacencyListGraphWithNegativeCycle() {
+        return createdWeightedAdjacencyListGraphWithNegativeCycle(DEFAULT_NUM_VERTICES, DEFAULT_GRAPH_TYPE);
+    }
+
+    protected static WeightedGraph createdWeightedAdjacencyListGraphWithNegativeCycle(
+            final int numVertices, final Graph.GraphType graphType) {
+        WeightedAdjacencyListGraph graph = new WeightedAdjacencyListGraph(numVertices, graphType);
+
+        graph.addEdge(0, 1, 2);
+        graph.addEdge(1, 2, 2);
+        graph.addEdge(2, 3, 2);
         graph.addEdge(3, 4, 2);
+        graph.addEdge(4, 5, 2);
+        graph.addEdge(5, 6, 2);
+        graph.addEdge(4, 7, -2);
+        graph.addEdge(7, 3, -2);
 
         return graph;
     }

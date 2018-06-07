@@ -1,12 +1,16 @@
 package com.skellas.dsa.graph;
 
 public class DistanceInfo {
-
+    private static final int DEFAULT_DISTANCE = -1;
     private int distance;
     private int lastVertex;
 
     public DistanceInfo() {
-        distance = -1;
+        distance = DEFAULT_DISTANCE;
+    }
+
+    public DistanceInfo(int distance) {
+        this.distance = distance;
     }
 
     public DistanceInfo(int distance, int lastVertex) {

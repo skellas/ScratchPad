@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913d9b29-2f0f-4320-9d3c-87bb50fe650c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/VertexInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedDistanceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/BellmanFordTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/AdjacencyListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/AdjacencyListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/AdjacencyMatrixGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/AdjacencyMatrixGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/GraphNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/GraphTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/GraphTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyListGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyListGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyMatrixGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyMatrixGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedDistanceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DijkstraTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WeightedGraphTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java">
+      <file leaf-file-name="BellmanFordTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/BellmanFordTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="148">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +36,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeightedGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraph.java">
+      <file leaf-file-name="DistanceInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="170">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="804">
+              <caret line="454" column="6" selection-start-line="454" selection-start-column="6" selection-end-line="454" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightedAdjacencyListGraphTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +82,8 @@
       <file leaf-file-name="WeightedAdjacencyListGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#604#605#0" expanded="true" />
                 <element signature="e#651#652#0" expanded="true" />
@@ -71,34 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeightedGraphNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightedAdjacencyListGraphTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphGeneratorUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphGeneratorUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,6 +128,8 @@
       <find>Object</find>
       <find>push</find>
       <find>Directed</find>
+      <find>DistanceIn</find>
+      <find>WeightedDistanceInfo</find>
     </findStrings>
     <replaceStrings>
       <replace>BTHelperUtil.testNodeIsNotNull</replace>
@@ -136,6 +138,7 @@
       <replace>head</replace>
       <replace>largerIndex</replace>
       <replace>int</replace>
+      <replace>DistanceInfo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/heap/BaseHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/heap/HeapUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/GraphTraversal.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyListGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyMatrixGraphTest.java" />
@@ -172,12 +174,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedDistanceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/VertexInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/AdjacencyListGraph.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DijkstraTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/BellmanFordTraversal.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java" />
       </list>
     </option>
   </component>
@@ -368,78 +373,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path">
+  <component name="RunManager" selected="JUnit.WeightedAdjacencyListGraphTest.test_all_scenarios_from_course">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AdjacencyListGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScratchPad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
-      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.AdjacencyListGraphTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AdjacencyMatrixGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScratchPad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
-      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.AdjacencyMatrixGraphTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AdjacencyMatrixGraphTest.test_shortest_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScratchPad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
-      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.AdjacencyMatrixGraphTest" />
-      <option name="METHOD_NAME" value="test_shortest_path" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="WeightedAdjacencyListGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
@@ -464,6 +400,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WeightedAdjacencyListGraphTest.test_all_scenarios_from_course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScratchPad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.WeightedAdjacencyListGraphTest" />
+      <option name="METHOD_NAME" value="test_all_scenarios_from_course" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScratchPad" />
       <extension name="coverage">
@@ -477,6 +436,52 @@
       <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
       <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.WeightedAdjacencyListGraphTest" />
       <option name="METHOD_NAME" value="test_shortest_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScratchPad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.WeightedAdjacencyListGraphTest" />
+      <option name="METHOD_NAME" value="test_shortest_path_bellman_ford" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScratchPad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.dsa.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.dsa.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.dsa.graph.WeightedAdjacencyListGraphTest" />
+      <option name="METHOD_NAME" value="test_shortest_path_bellman_ford_with_negative_cycle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -526,19 +531,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdjacencyListGraphTest" />
-      <item itemvalue="JUnit.AdjacencyMatrixGraphTest.test_shortest_path" />
-      <item itemvalue="JUnit.AdjacencyMatrixGraphTest" />
       <item itemvalue="JUnit.WeightedAdjacencyListGraphTest" />
       <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path" />
+      <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" />
+      <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" />
+      <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_all_scenarios_from_course" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_all_scenarios_from_course" />
+        <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" />
+        <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" />
         <item itemvalue="JUnit.WeightedAdjacencyListGraphTest.test_shortest_path" />
         <item itemvalue="JUnit.WeightedAdjacencyListGraphTest" />
-        <item itemvalue="JUnit.AdjacencyMatrixGraphTest" />
-        <item itemvalue="JUnit.AdjacencyListGraphTest" />
-        <item itemvalue="JUnit.AdjacencyMatrixGraphTest.test_shortest_path" />
       </list>
     </recent_temporary>
   </component>
@@ -558,44 +563,44 @@
       <workItem from="1527726303899" duration="417000" />
       <workItem from="1528123947262" duration="8601000" />
       <workItem from="1528241453000" duration="5113000" />
-      <workItem from="1528292211602" duration="11673000" />
+      <workItem from="1528292211602" duration="16072000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 17m 13s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford - 2018.06.07 at 09h 13m 55s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 17m 55s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford - 2018.06.07 at 09h 15m 53s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 18m 35s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford - 2018.06.07 at 09h 16m 17s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 19m 31s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford - 2018.06.07 at 09h 18m 36s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 20m 47s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford_with_negative_cycle - 2018.06.07 at 09h 19m 28s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 25m 35s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford_with_negative_cycle - 2018.06.07 at 09h 20m 25s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 26m 25s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford_with_negative_cycle - 2018.06.07 at 09h 20m 59s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 26m 52s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path_bellman_ford_with_negative_cycle - 2018.06.07 at 09h 22m 05s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path_bellman_ford_with_negative_cycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 28m 34s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_all_scenarios_from_course - 2018.06.07 at 09h 26m 03s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_all_scenarios_from_course" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightedAdjacencyListGraphTest_test_shortest_path - 2018.06.06 at 14h 28m 52s.xml">
-      <configuration name="WeightedAdjacencyListGraphTest.test_shortest_path" configurationId="JUnit" />
+    <history-entry file="WeightedAdjacencyListGraphTest_test_all_scenarios_from_course - 2018.06.07 at 09h 26m 37s.xml">
+      <configuration name="WeightedAdjacencyListGraphTest.test_all_scenarios_from_course" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46560000" />
+    <option name="totallyTimeSpent" value="50959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,6 +627,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909255" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5009074" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
@@ -631,7 +637,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -674,19 +679,25 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DijkstraTraversal.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DijkstraTraversal.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -714,20 +725,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BinaryTreeNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/tree/BTTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -945,20 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="442" column="6" selection-start-line="442" selection-start-column="6" selection-end-line="442" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/AdjacencyMatrixGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -1001,28 +984,6 @@
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedDistanceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="3" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1082,16 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-          <folding>
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1102,31 +1057,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedDistanceInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DijkstraTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/tree/BTTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="550">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedGraphTraversal.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="804">
+          <caret line="454" column="6" selection-start-line="454" selection-start-column="6" selection-end-line="454" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/DistanceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/WeightedAdjacencyListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1134,7 +1122,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/GraphGeneratorUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skellas/dsa/graph/BellmanFordTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/skellas/dsa/graph/WeightedAdjacencyListGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

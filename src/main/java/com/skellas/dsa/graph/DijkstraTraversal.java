@@ -7,10 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class WeightedGraphTraversal extends GraphTraversal {
+public class DijkstraTraversal extends GraphTraversal {
 
     public static void shortestPath(WeightedGraph graph, int source, int destination) {
-        Map<Integer, WeightedDistanceInfo> distanceTable = buildDistanceTable(graph, source);
+        Map<Integer, DistanceInfo> distanceTable = buildDistanceTable(graph, source);
 
         Deque<Integer> stack = new ArrayDeque<>();
         stack.push(destination);
@@ -31,8 +31,8 @@ public class WeightedGraphTraversal extends GraphTraversal {
         }
     }
 
-    private static Map<Integer, WeightedDistanceInfo> buildDistanceTable(WeightedGraph graph, int source) {
-        Map<Integer, WeightedDistanceInfo> distanceTable = new HashMap<>();
+    private static Map<Integer, DistanceInfo> buildDistanceTable(WeightedGraph graph, int source) {
+        Map<Integer, DistanceInfo> distanceTable = new HashMap<>();
         PriorityQueue<VertexInfo> queue = new PriorityQueue<>(new Comparator<VertexInfo>() {
             @Override
             public int compare(VertexInfo v1, VertexInfo v2) {
@@ -43,7 +43,7 @@ public class WeightedGraphTraversal extends GraphTraversal {
         Map<Integer, VertexInfo> vertexInfoMap = new HashMap<>();
 
         for (int j = 0; j < graph.getNumVertices(); j++) {
-            distanceTable.put(j, new WeightedDistanceInfo());
+            distanceTable.put(j, new DistanceInfo(Integer.MAX_VALUE));
         }
         distanceTable.get(source).setDistance(0);
         distanceTable.get(source).setLastVertex(source);
