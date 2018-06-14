@@ -46,6 +46,25 @@ class WeightedAdjacencyListGraphTest {
     }
 
     @Test
+    public void test_spanning_tree_with_kruskal() {
+        WeightedGraph graph1 = new WeightedAdjacencyListGraph(9, Graph.GraphType.UNDIRECTED);
+        graph1.addEdge(2, 7, 4);
+        graph1.addEdge(0, 3, 2);
+        graph1.addEdge(0, 4, 2);
+        graph1.addEdge(0, 1, 1);
+        graph1.addEdge(2, 1, 3);
+        graph1.addEdge(1, 3, 2);
+        graph1.addEdge(3, 5, 3);
+        graph1.addEdge(3, 6, 2);
+        graph1.addEdge(4, 7, 22);
+        graph1.addEdge(7, 5, 4);
+        graph1.addEdge(6, 5, 1);
+
+        KruskalTraversal.spanningTree(graph1);
+
+    }
+
+    @Test
     public void test_all_scenarios_from_course() {
         WeightedGraph graph1 = new WeightedAdjacencyListGraph(8, Graph.GraphType.DIRECTED);
         graph1.addEdge(2, 7, 4);
